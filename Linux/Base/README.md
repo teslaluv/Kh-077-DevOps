@@ -13,6 +13,7 @@ execute. What additional information can be gleaned from the command
 execution?
 
 ![This is an image](https://github.com/teslaluv/Kh-077-DevOps/blob/main/Linux/Base/Screens/Screenshot_31.png?raw=true)
+
 The results of the w command:
 
 - User ⁠— username.
