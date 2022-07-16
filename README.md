@@ -2,6 +2,7 @@
 Mutsyn Nazar
 
 List of hometasks
-1. Linux
+
+Linux
   - Base
   - Networking
