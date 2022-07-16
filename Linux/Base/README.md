@@ -1,6 +1,7 @@
 # Linux Base
 ## Task1. Part1
 1) Log in to the system as root.
+  ![This is an image](https://github.com/teslaluv/Kh-077-DevOps/blob/main/Linux/Base/Screens/Screenshot_1.png?raw=true)
 2) Use the passwd command to change the password. Examine the basic
 parameters of the command. What system file does it change *?
 3) Determine the users registered in the system, as well as what commands they
