@@ -11,6 +11,19 @@ It changes /etc/passwd file
 3) Determine the users registered in the system, as well as what commands they
 execute. What additional information can be gleaned from the command
 execution?
+
+![This is an image](https://github.com/teslaluv/Kh-077-DevOps/blob/main/Linux/Base/Screens/Screenshot_31.png?raw=true)
+The results of the w command:
+
+- User ⁠— username.
+- TTY ⁠— terminal name
+- From ⁠— the name of the remote host.
+- Login@ ⁠— login time.
+- Idle ⁠— idle time.
+- JCPU ⁠— the amount of time used by processes attached to the TTY.
+- PCPU ⁠— the time used by the process displayed in the WHAT field.
+- WHAT ⁠— the user’s current process.
+
 4) Change personal information about yourself.
 5) Become familiar with the Linux help system and the man and info commands.
 Get help on the previously discussed commands, define and describe any two
