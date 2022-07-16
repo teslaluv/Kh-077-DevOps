@@ -1,5 +1,5 @@
-#Linux Base
-##Task1. Part1
+# Linux Base
+## Task1. Part1
 1) Log in to the system as root.
 2) Use the passwd command to change the password. Examine the basic
 parameters of the command. What system file does it change *?
@@ -17,7 +17,7 @@ read the documentation for the finger command.
 8) * List the contents of the home directory using the ls command, define its files
 and directories. Hint: Use the help system to familiarize yourself with the ls
 command.
-##Task1.Part2
+## Task1.Part2
 1) Examine the tree command. Master the technique of applying a template, for
 example, display all files that contain a character c, or files that contain a
 specific sequence of characters. List subdirectories of the root directory up to
