@@ -1,1 +1,1 @@
-# Sceenshots
+# Folder with sceenshots
