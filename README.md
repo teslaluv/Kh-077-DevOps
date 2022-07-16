@@ -6,3 +6,4 @@ List of hometasks
 1. Linux
    - Base
    - Networking
+   - Bash
