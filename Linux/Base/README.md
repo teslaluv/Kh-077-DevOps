@@ -5,6 +5,7 @@
 parameters of the command. What system file does it change *?
 
 ![This is an image](https://github.com/teslaluv/Kh-077-DevOps/blob/main/Linux/Base/Screens/Screenshot_2.png?raw=true)
+
 It changes /etc/passwd file
 
 3) Determine the users registered in the system, as well as what commands they
