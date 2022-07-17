@@ -137,5 +137,8 @@ screenshots: command – result should be presented)
 3. List the options for choosing keys for encryption in SSH. Implement 3 of them.
 4. Implement port forwarding for the SSH client from the host machine to the guest Linux 
 virtual machine behind NAT.
-5*. Intercept (capture) traffic (tcpdump, wireshark) while authorizing the remote client on the 
+
+![image](https://user-images.githubusercontent.com/109180406/179423644-0873842d-b4e6-4c95-8a57-32cb539404bc.png)
+
+5. Intercept (capture) traffic (tcpdump, wireshark) while authorizing the remote client on the 
 server using ssh, telnet, rlogin. Analyze the result
