@@ -25,11 +25,21 @@ cat /proc/cpuinfo
 follows: the owner of the process, the arguments with which the process was launched for 
 execution, the group owner of this process, etc.
 6. How to define kernel processes and user processes?
+
+User-space processes have its own virtual address space.
+Kernel processes or threads do not have their own address space, they operate within kernel address space only. And they may be started before the kernel has started any user process
+
 7. Print the list of processes to the terminal. Briefly describe the statuses of the processes. 
 What condition are they in, or can they be arriving in?
 8. Display only the processes of a specific user.
+
+![Screenshot_39](https://user-images.githubusercontent.com/109180406/179421248-85398bab-b900-416a-b1c4-cc23327f360b.png)
+
 9. What utilities can be used to analyze existing running tasks (by analyzing the help for the ps 
 command)?
+
+We can see every process on the system with the ps -e command. In addition, there is the ps axjf command, which is used to print the process tree. To get security information we can use ps axZ and to get information about threads we can use ps axms.
+
 10. What information does top command display?
 
 top command is used to show the Linux processes. It provides a dynamic real-time view of the running system. Usually, this command shows the summary information of the system and the list of processes or threads which are currently managed by the Linux Kernel.
@@ -64,8 +74,28 @@ You can change the process priority using nice and renice utility. Nice command 
 15. Can I change the priority of a process using the top command? If so, how?
 16. Examine the kill command. How to send with the kill command
 process control signal? Give an example of commonly used signals.
+
+kill command sends a signal to a process which terminates the process. If the user doesn’t specify any signal which is to be sent along with kill command then default TERM signal is sent that terminates the process.
+
+We can send the kill command process control signal using this commands:
+- kill -s signalName PID
+- kill -signalName PID
+- kill -signalNumber PID
+
+Commonly used signals:
+- SIGINT
+- SIGKILL
+- SIGTERM	
+- SIGTSTP
+
 17. Commands jobs, fg, bg, nohup. What are they for? Use the sleep, yes command to 
 demonstrate the process control mechanism with fg, bg.
+
+bg - put suspended process into background
+fg - bring process into foreground
+jobs - list processes
+nohup (No Hang Up) is a command in Linux systems that runs the process even after logging out from the shell/terminal.
+
 ## Part2
 1. Check the implementability of the most frequently used OPENSSH commands in the MS 
 Windows operating system. (Description of the expected result of the commands + 
