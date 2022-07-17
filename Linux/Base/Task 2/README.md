@@ -1,4 +1,4 @@
-# Task2
+# Task 2
 Task assignment.
 1) Analyze the structure of the /etc/passwd and /etc/group file, what fields are 
 present in it, what users exist on the system? Specify several pseudo-users, how 
@@ -29,17 +29,17 @@ Groups in Linux are defined by GIDs (group IDs). Just like with UIDs, the first 
 
 4) How to determine belonging of user to the specific group?
 
-groups [username]
+`groups [username]`
 
 5) What are the commands for adding a user to the system? What are the basic 
 parameters required to create a user?
 
-useradd [options] username
-passwd username
+`useradd [options] username`
+`passwd username`
 
 6) How do I change the name (account name) of an existing user?
 
-usermod -l newUsername oldUsername
+`usermod -l newUsername oldUsername`
 
 7) What is skell_dir? What is its structure?
 
@@ -47,20 +47,20 @@ skell_dir is the directory containing the files to copy to the newly created own
 
 8) How to remove a user from the system (including his mailbox)?
 
-userdel -r username
+`userdel -r username`
 
 9) What commands and keys should be used to lock and unlock a user account?
 
 Lock users in Linux:
-passwd -l username
-usermod -l username
+`passwd -l username`
+`usermod -l username`
 
 Unlock users in Linux:
-passwd -u username
-usermod -u username
+`passwd -u username`
+`usermod -u username`
 
-10) How to remove a user's password and provide him with a password-free 
-login for subsequent password change?
+10) How to remove a user's password and provide him with a password-free login for subsequent password change?
+`passwd -e [username]`
 11) Display the extended format of information about the directory, tell about 
 the information columns displayed on the terminal.
 
@@ -118,7 +118,7 @@ When clarifying the relationship between a file and the user who started the pro
 14) What commands are used to change the owner of a file (directory), as well 
 as the mode of access to the file? Give examples, demonstrate on the terminal.
 
-chown [OPTIONS] USER[:GROUP] FILE(s)
+`chown [OPTIONS] USER[:GROUP] FILE(s)`
 
 ![Screenshot_38](https://user-images.githubusercontent.com/109180406/179394482-0adc3511-8715-426b-bca4-a436d53ab334.png)
 
