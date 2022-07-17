@@ -4,7 +4,7 @@
 2) Use the passwd command to change the password. Examine the basic
 parameters of the command. What system file does it change *?
 
-![This is an image](https://github.com/teslaluv/Kh-077-DevOps/blob/main/Linux/Base/Screens/Screenshot_2.png?raw=true)
+![Screenshot_2](https://user-images.githubusercontent.com/109180406/179379415-b30c536a-a0fe-41bd-b8ce-4ded693f63ff.png)
 
 It changes /etc/passwd file
 
@@ -12,7 +12,7 @@ It changes /etc/passwd file
 execute. What additional information can be gleaned from the command
 execution?
 
-![This is an image](https://github.com/teslaluv/Kh-077-DevOps/blob/main/Linux/Base/Screens/Screenshot_31.png?raw=true)
+![Screenshot_31](https://user-images.githubusercontent.com/109180406/179379411-d92aa677-87d1-40e7-b63d-d938f5c81b8d.png)
 
 The results of the w command:
 
