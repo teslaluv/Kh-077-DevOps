@@ -106,6 +106,9 @@ amount of processor time taken up, etc.)
 You can change the process priority using nice and renice utility. Nice command will launch a process with an user defined scheduling priority. Renice command will modify the scheduling priority of a running process. Linux Kernel schedules the process and allocates CPU time accordingly for each of them.
 
 15. Can I change the priority of a process using the top command? If so, how?
+
+You can use the r command from the top utility to change the priority of a currently running process
+
 16. Examine the kill command. How to send with the kill command
 process control signal? Give an example of commonly used signals.
 
