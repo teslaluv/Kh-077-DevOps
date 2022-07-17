@@ -1,5 +1,5 @@
 # Linux Base
-## Task1. Part1
+## Task 1. Part 1
 1) Log in to the system as root.
 2) Use the passwd command to change the password. Examine the basic
 parameters of the command. What system file does it change *?
@@ -56,7 +56,7 @@ command.
 
 ![Screenshot_32](https://user-images.githubusercontent.com/109180406/179375611-fb63b6a8-0a1b-4c01-8534-e1057172c5f2.png)
 
-## Task1.Part2
+## Task 1. Part 2
 1) Examine the tree command. Master the technique of applying a template, for
 example, display all files that contain a character c, or files that contain a
 specific sequence of characters. List subdirectories of the root directory up to
