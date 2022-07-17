@@ -26,16 +26,33 @@ The results of the w command:
 - WHAT ⁠— the user’s current process.
 
 4) Change personal information about yourself.
+
+![Screenshot_3](https://user-images.githubusercontent.com/109180406/179375479-4073cbef-106b-45cc-b362-4753567b0aba.png)
+
 5) Become familiar with the Linux help system and the man and info commands.
 Get help on the previously discussed commands, define and describe any two
 keys for these commands. Give examples.
 6) Explore the more and less commands using the help system. View the contents
 of files .bash* using commands.
+
+![Screenshot_4](https://user-images.githubusercontent.com/109180406/179375494-30e3e35a-f0d5-4ce5-b9c9-335d7fa60f29.png)
+
+![Screenshot_5](https://user-images.githubusercontent.com/109180406/179375513-2eca92c5-56dc-4d59-9ced-64f1a831acba.png)
+
+
 7) * Describe in plans that you are working on laboratory work 1. Tip: You should
 read the documentation for the finger command.
+
+![Screenshot_7](https://user-images.githubusercontent.com/109180406/179375567-fbfef6bf-e325-47be-8b34-8dc82cc5f74e.png)
+
+![Screenshot_8](https://user-images.githubusercontent.com/109180406/179375570-b057866c-c473-4349-81eb-07df32f474e2.png)
+
 8) * List the contents of the home directory using the ls command, define its files
 and directories. Hint: Use the help system to familiarize yourself with the ls
 command.
+
+![Screenshot_32](https://user-images.githubusercontent.com/109180406/179375611-fb63b6a8-0a1b-4c01-8534-e1057172c5f2.png)
+
 ## Task1.Part2
 1) Examine the tree command. Master the technique of applying a template, for
 example, display all files that contain a character c, or files that contain a
