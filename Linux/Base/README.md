@@ -164,3 +164,7 @@ In Linux there are basically three types of files:
 
 15) List the first 5 directory files that were recently accessed in the /etc
 directory.
+
+![Screenshot_35](https://user-images.githubusercontent.com/109180406/179379672-59463a84-4c7d-4b5b-ba14-caf48025b677.png)
+
+
