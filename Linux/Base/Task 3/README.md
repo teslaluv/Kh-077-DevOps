@@ -31,6 +31,31 @@ Kernel processes or threads do not have their own address space, they operate wi
 
 7. Print the list of processes to the terminal. Briefly describe the statuses of the processes. 
 What condition are they in, or can they be arriving in?
+
+![Screenshot_42](https://user-images.githubusercontent.com/109180406/179423333-ff28ef94-3040-4bef-9871-db705b4ad48d.png)
+
+![Screenshot_43](https://user-images.githubusercontent.com/109180406/179423335-0369680d-0212-4127-abbf-2162502e60b8.png)
+
+PROCESS STATE CODES
+       Here are the different values that the s, stat and state output specifiers (header "STAT" or "S") will display to describe the state of a process:
+       D    uninterruptible sleep (usually IO)
+       R    running or runnable (on run queue)
+       S    interruptible sleep (waiting for an event to complete)
+       T    stopped, either by a job control signal or because it is being traced.
+       W    paging (not valid since the 2.6.xx kernel)
+       X    dead (should never be seen)
+       Z    defunct ("zombie") process, terminated but not reaped by its parent.
+
+       For BSD formats and when the stat keyword is used, additional characters may be displayed:
+       <    high-priority (not nice to other users)
+       N    low-priority (nice to other users)
+       L    has pages locked into memory (for real-time and custom IO)
+       s    is a session leader
+       l    is multi-threaded (using CLONE_THREAD, like NPTL pthreads do)
+       +    is in the foreground process group.
+
+From the screenshots, you can see that almost all of my processes are in the S (interruptible sleep) state and only one process is in the R (running or ready to run (run queue) state).
+
 8. Display only the processes of a specific user.
 
 ![Screenshot_39](https://user-images.githubusercontent.com/109180406/179421248-85398bab-b900-416a-b1c4-cc23327f360b.png)
@@ -52,21 +77,27 @@ top -u username
 examples.
 
 - Enter or Space
+
 Refresh-Display
 These commands awaken top, and following receipt of any input, the entire display is repainted. They also force an update of any hotplugged cpu or physical memory changes.
 Use either of these keys if you have a large delay interval and want to see current status.
   
 - ? or h
+
 Help
 There are two help levels available. The first provides a reminder of all the basic interactive commands. If top is secured, that screen is abbreviated.
 Typing 'h' or '?' on that help screen takes you to help for those interactive commands applicable to alternate-display mode.
 
 - A
+
 Alternate-Display-Mode toggle
 This command switches between full-screen mode and alternate-display mode.
   
 13. Sort the contents of the processes window using various parameters (for example, the 
 amount of processor time taken up, etc.)
+
+![Screenshot_40](https://user-images.githubusercontent.com/109180406/179422445-cd57fc0b-3959-46ab-a6b2-19ad37828774.png)
+
 14. Concept of priority, what commands are used to set priority?
 
 You can change the process priority using nice and renice utility. Nice command will launch a process with an user defined scheduling priority. Renice command will modify the scheduling priority of a running process. Linux Kernel schedules the process and allocates CPU time accordingly for each of them.
@@ -95,6 +126,8 @@ bg - put suspended process into background
 fg - bring process into foreground
 jobs - list processes
 nohup (No Hang Up) is a command in Linux systems that runs the process even after logging out from the shell/terminal.
+
+![Screenshot_41](https://user-images.githubusercontent.com/109180406/179422667-6f704023-5e65-4f28-9710-472034f535f2.png)
 
 ## Part2
 1. Check the implementability of the most frequently used OPENSSH commands in the MS 
