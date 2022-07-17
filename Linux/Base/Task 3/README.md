@@ -7,9 +7,9 @@ There are five Linux process states. They are as follows: running & runnable, in
 2. Examine the pstree command. Make output (highlight) the chain (ancestors) of the current 
 process.
 
-pstree -h
+`pstree -h`
 
-Highlights the current process and its ancestors.
+This command highlights the current process and its ancestors.
 
 3. What is a proc file system?
 
@@ -130,10 +130,10 @@ Commonly used signals:
 17. Commands jobs, fg, bg, nohup. What are they for? Use the sleep, yes command to 
 demonstrate the process control mechanism with fg, bg.
 
-bg - put suspended process into background
-fg - bring process into foreground
-jobs - list processes
-nohup (No Hang Up) is a command in Linux systems that runs the process even after logging out from the shell/terminal.
+- bg - put suspended process into background
+- fg - bring process into foreground
+- jobs - list processes
+- nohup (No Hang Up) is a command in Linux systems that runs the process even after logging out from the shell/terminal.
 
 ![Screenshot_41](https://user-images.githubusercontent.com/109180406/179422667-6f704023-5e65-4f28-9710-472034f535f2.png)
 
