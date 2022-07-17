@@ -35,6 +35,7 @@ Groups in Linux are defined by GIDs (group IDs). Just like with UIDs, the first 
 parameters required to create a user?
 
 `useradd [options] username`
+
 `passwd username`
 
 6) How do I change the name (account name) of an existing user?
@@ -53,10 +54,12 @@ skell_dir is the directory containing the files to copy to the newly created own
 
 Lock users in Linux:
 `passwd -l username`
+
 `usermod -l username`
 
 Unlock users in Linux:
 `passwd -u username`
+
 `usermod -u username`
 
 10) How to remove a user's password and provide him with a password-free login for subsequent password change?
@@ -83,26 +86,20 @@ When the long listing format is used, you can see the following file information
 Briefly describe the acronym for access rights.
 
 Types of Users:
-Owner:
-The user who creates the file or folder is the owner of that file or folder, and the owner can permit the other types of users to access that file and folder. It is denoted by ‘u’.
+- Owner: The user who creates the file or folder is the owner of that file or folder, and the owner can permit the other types of users to access that file and folder. It is denoted by ‘u’.
 
-Group:
-Each user can belong to a particular group in Linux. So, when a user creates a file or folder, then other members of the group where the user belongs can access the file or folder. When multiple users work on a particular folder, then it is better to create a group with those users to access that folder properly. It is denoted by ‘g’.
+- Group: Each user can belong to a particular group in Linux. So, when a user creates a file or folder, then other members of the group where the user belongs can access the file or folder. When multiple users work on a particular folder, then it is better to create a group with those users to access that folder properly. It is denoted by ‘g’.
 
-Others/All:
-It indicates any user who is not the owner of a particular file or folder and does not belong to the file or folder owner’s group. If the owner of the file or folder gives any access permission to others, then any users can do that particular access only. ‘o’ is used to denote other users, and ‘a’ is used to denote all users.
+- Others/All: It indicates any user who is not the owner of a particular file or folder and does not belong to the file or folder owner’s group. If the owner of the file or folder gives any access permission to others, then any users can do that particular access only. ‘o’ is used to denote other users, and ‘a’ is used to denote all users.
 
 Permission Types:
 Three permission types exist in the Linux system, which is mentioned below.
 
-Read:
-This permission is used to read any file or folder only. It is denoted by ‘r’ when it is defined by character, and it is denoted by 4 when it is defined by a number.
+- Read: This permission is used to read any file or folder only. It is denoted by ‘r’ when it is defined by character, and it is denoted by 4 when it is defined by a number.
 
-Write:
-This permission is used to write, append, or override any file or folder. It is denoted by ‘w’ when it is defined by the character, and it is denoted by 2 when it is defined by the number. If the user has to write permission to a file, but he/she has not to write permission on the folder where the file is located, then the user can modify the content of the file only, but he/she will not able to rename, move or delete the file.
+- Write: This permission is used to write, append, or override any file or folder. It is denoted by ‘w’ when it is defined by the character, and it is denoted by 2 when it is defined by the number. If the user has to write permission to a file, but he/she has not to write permission on the folder where the file is located, then the user can modify the content of the file only, but he/she will not able to rename, move or delete the file.
 
-Execute:
-This permission is used to execute any file only. It is denoted by ‘x’ when it is defined by the character, and it is denoted by 1 when it is defined by the number.
+- Execute: This permission is used to execute any file only. It is denoted by ‘x’ when it is defined by the character, and it is denoted by 1 when it is defined by the number.
 
 13) What is the sequence of defining the relationship between the file and the 
 user?
