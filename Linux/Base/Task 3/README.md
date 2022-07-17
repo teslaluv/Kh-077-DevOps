@@ -101,6 +101,8 @@ amount of processor time taken up, etc.)
 
 ![Screenshot_40](https://user-images.githubusercontent.com/109180406/179422445-cd57fc0b-3959-46ab-a6b2-19ad37828774.png)
 
+![image](https://user-images.githubusercontent.com/109180406/179425122-ef026faa-58a9-417f-91af-74d1e68dfbdd.png)
+
 14. Concept of priority, what commands are used to set priority?
 
 You can change the process priority using nice and renice utility. Nice command will launch a process with an user defined scheduling priority. Renice command will modify the scheduling priority of a running process. Linux Kernel schedules the process and allocates CPU time accordingly for each of them.
