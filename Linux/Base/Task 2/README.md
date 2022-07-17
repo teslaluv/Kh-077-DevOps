@@ -28,8 +28,15 @@ than 65535 (sometimes 32-bit). Some identifiers are reserved for special use. Th
 Groups in Linux are defined by GIDs (group IDs). Just like with UIDs, the first 100 GIDs are usually reserved for system use. The GID of 0 corresponds to the root group and the GID of 100 usually represents the users group. GIDs are stored in the /etc/groups file.
 
 4) How to determine belonging of user to the specific group?
+
+groups [username]
+
 5) What are the commands for adding a user to the system? What are the basic 
 parameters required to create a user?
+
+useradd [options] username
+passwd username
+
 6) How do I change the name (account name) of an existing user?
 
 usermod -l newUsername oldUsername
@@ -113,7 +120,7 @@ as the mode of access to the file? Give examples, demonstrate on the terminal.
 
 chown [OPTIONS] USER[:GROUP] FILE(s)
 
-
+![Screenshot_38](https://user-images.githubusercontent.com/109180406/179394482-0adc3511-8715-426b-bca4-a436d53ab334.png)
 
 15) What is an example of octal representation of access rights? Describe the 
 umask command.
