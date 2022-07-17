@@ -24,6 +24,9 @@ cat /proc/cpuinfo
 5. Use the ps command to get information about the process. The information should be as 
 follows: the owner of the process, the arguments with which the process was launched for 
 execution, the group owner of this process, etc.
+
+![image](https://user-images.githubusercontent.com/109180406/179424909-35ed4c07-dedb-478d-bd54-b514a3b54174.png)
+
 6. How to define kernel processes and user processes?
 
 User-space processes have its own virtual address space.
@@ -133,8 +136,16 @@ nohup (No Hang Up) is a command in Linux systems that runs the process even afte
 1. Check the implementability of the most frequently used OPENSSH commands in the MS 
 Windows operating system. (Description of the expected result of the commands + 
 screenshots: command – result should be presented)
+
+![image](https://user-images.githubusercontent.com/109180406/179424637-9f1162ab-db77-49a0-aa4f-c112136da665.png)
+
+![image](https://user-images.githubusercontent.com/109180406/179424628-e69c9b63-4054-40e7-81ae-1865ca0477b5.png)
+
 2. Implement basic SSH settings to increase the security of the client-server connection (at least 
 3. List the options for choosing keys for encryption in SSH. Implement 3 of them.
+
+RSA, DSA, ECDSA, and EdDSA
+
 4. Implement port forwarding for the SSH client from the host machine to the guest Linux 
 virtual machine behind NAT.
 
