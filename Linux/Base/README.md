@@ -162,5 +162,5 @@ In Linux there are basically three types of files:
 - Special files
 - Directories
 
-15) * List the first 5 directory files that were recently accessed in the /etc
+15) List the first 5 directory files that were recently accessed in the /etc
 directory.
