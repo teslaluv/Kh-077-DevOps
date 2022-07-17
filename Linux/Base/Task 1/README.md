@@ -121,8 +121,17 @@ why
 - then delete the labwork2. What changes have occurred and why?
 7) Using the locate utility, find all files that contain the squid and traceroute
 sequence.
+
+![image](https://user-images.githubusercontent.com/109180406/179427163-f07f792a-8f10-4106-b627-737847c6d443.png)
+
+![image](https://user-images.githubusercontent.com/109180406/179427196-570457eb-4cd1-4494-a118-43df27108888.png)
+
+
 8) Determine which partitions are mounted in the system, as well as the types of
 these partitions.
+
+![image](https://user-images.githubusercontent.com/109180406/179426688-403c4ae5-37ee-4004-99c8-a42f054f3db5.png)
+
 9) Count the number of lines containing a given sequence of characters in a given
 file.
 
@@ -144,8 +153,13 @@ duplicate a similar command using a bunch of grep?
 
 12) Organize a screen-by-screen print of the contents of the /etc directory. Hint:
 You must use stream redirection operations.
-13) What are the types of devices and how to determine the type of device? Give
-examples.
+
+![image](https://user-images.githubusercontent.com/109180406/179426814-f9f38b97-a308-4e00-8b7c-7b52351941f4.png)
+
+13) What are the types of devices and how to determine the type of device? Give examples.
+
+Linux supports three types of hardware device: character, block and network.
+
 14) How to determine the type of file in the system, what types of files are there?
 
 With the help of these commands, we can determine the type of file in the system:
