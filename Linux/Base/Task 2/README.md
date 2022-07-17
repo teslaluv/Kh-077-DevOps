@@ -133,6 +133,12 @@ How does the umask command work?
 
 ![Screenshot_36](https://user-images.githubusercontent.com/109180406/179394094-453aacee-b3c6-45bb-b1a8-a30b2e0ebddc.png)
 
-16) Give definitions of sticky bits and mechanism of identifier substitution. Give 
-an example of files and directories with these attributes.
+16) Give definitions of sticky bits and mechanism of identifier substitution. Give an example of files and directories with these attributes.
+
+Sticky Bit is mainly used on folders in order to avoid deletion of a folder and it’s content by other users
+though they having write permissions on the folder contents. If Sticky bit is enabled on a folder, the folder
+contents are deleted by only owner who created them and the root user. No one else can delete other
+users data in this folder(Where sticky bit is set). This is a security measure to avoid deletion of critical
+folders and their content(sub-folders and files), though other users have full permissions.
+
 17) What file attributes should be present in the command script?
