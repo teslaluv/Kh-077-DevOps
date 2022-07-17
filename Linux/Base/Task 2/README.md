@@ -63,7 +63,9 @@ Unlock users in Linux:
 `usermod -u username`
 
 10) How to remove a user's password and provide him with a password-free login for subsequent password change?
+
 `passwd -e [username]`
+
 11) Display the extended format of information about the directory, tell about 
 the information columns displayed on the terminal.
 
