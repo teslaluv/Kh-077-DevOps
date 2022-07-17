@@ -6,6 +6,11 @@ There are five Linux process states. They are as follows: running & runnable, in
 
 2. Examine the pstree command. Make output (highlight) the chain (ancestors) of the current 
 process.
+
+pstree -h
+
+Highlights the current process and its ancestors.
+
 3. What is a proc file system?
 
 Proc file system (procfs) is virtual file system created on fly when system boots and is dissolved at time of system shut down.
@@ -26,12 +31,36 @@ What condition are they in, or can they be arriving in?
 9. What utilities can be used to analyze existing running tasks (by analyzing the help for the ps 
 command)?
 10. What information does top command display?
-12. Display the processes of the specific user using the top command.
+
+top command is used to show the Linux processes. It provides a dynamic real-time view of the running system. Usually, this command shows the summary information of the system and the list of processes or threads which are currently managed by the Linux Kernel.
+
+11. Display the processes of the specific user using the top command.
+
+top -u username
+
 12. What interactive commands can be used to control the top command? Give a couple of 
 examples.
+
+- Enter or Space
+Refresh-Display
+These commands awaken top, and following receipt of any input, the entire display is repainted. They also force an update of any hotplugged cpu or physical memory changes.
+Use either of these keys if you have a large delay interval and want to see current status.
+  
+- ? or h
+Help
+There are two help levels available. The first provides a reminder of all the basic interactive commands. If top is secured, that screen is abbreviated.
+Typing 'h' or '?' on that help screen takes you to help for those interactive commands applicable to alternate-display mode.
+
+- A
+Alternate-Display-Mode toggle
+This command switches between full-screen mode and alternate-display mode.
+  
 13. Sort the contents of the processes window using various parameters (for example, the 
 amount of processor time taken up, etc.)
 14. Concept of priority, what commands are used to set priority?
+
+You can change the process priority using nice and renice utility. Nice command will launch a process with an user defined scheduling priority. Renice command will modify the scheduling priority of a running process. Linux Kernel schedules the process and allocates CPU time accordingly for each of them.
+
 15. Can I change the priority of a process using the top command? If so, how?
 16. Examine the kill command. How to send with the kill command
 process control signal? Give an example of commonly used signals.
