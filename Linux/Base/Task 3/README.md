@@ -1,5 +1,5 @@
-# TASK5.3
-## Part1
+# TASK 3
+## Part 1
 1. How many states could has a process in Linux?
 
 There are five Linux process states. They are as follows: running & runnable, interruptable_sleep, uninterruptable_sleep, stopped, and zombie.
@@ -19,7 +19,7 @@ The proc file system also provides communication medium between kernel space and
 
 4. Print information about the processor (its type, supported technologies, etc.).
 
-cat /proc/cpuinfo
+`cat /proc/cpuinfo`
 
 5. Use the ps command to get information about the process. The information should be as 
 follows: the owner of the process, the arguments with which the process was launched for 
@@ -74,7 +74,7 @@ top command is used to show the Linux processes. It provides a dynamic real-time
 
 11. Display the processes of the specific user using the top command.
 
-top -u username
+`top -u username`
 
 12. What interactive commands can be used to control the top command? Give a couple of 
 examples.
@@ -137,7 +137,7 @@ demonstrate the process control mechanism with fg, bg.
 
 ![Screenshot_41](https://user-images.githubusercontent.com/109180406/179422667-6f704023-5e65-4f28-9710-472034f535f2.png)
 
-## Part2
+## Part 2
 1. Check the implementability of the most frequently used OPENSSH commands in the MS 
 Windows operating system. (Description of the expected result of the commands + 
 screenshots: command – result should be presented)
